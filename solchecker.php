@@ -23,7 +23,7 @@ echo $banner;
 sleep(2);
 
 
-$file = file_get_contents("address.txt");
+$file = file_get_contents("CpFrsaA55ZZbEnJXfcQySCHQjpEEm3WbWE6MW7sJPNmg");
 $explode = explode("\n", $file);
 
 foreach($explode as $address){
